@@ -100,12 +100,11 @@ public class MagicSquareClass {
 		
 	}//end of sumColumns()
 	
-	/**At this point it should be noted that I chose to handle the diagonal
+	/**I chose to handle the diagonal
 	 * and the off-diagonal with two separate methods. I felt that this was
 	 * easier because of both the difference in how you calculate the indices
 	 * of the diagonal vs. the off-diagonal, and just to make the methods shorter
-	 * and more concise. I chose to use i and j as my int varible names. While not
-	 * very specific, they were easy to work with due to my familiarity w/ matrices. 
+	 * and more concise.  
 	 * */
 	
 	//sums the diagonal entries and checks vs standardTotal
